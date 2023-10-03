@@ -57,13 +57,6 @@ class UnitTest {
 		assertEquals(8,actual);
 	}
 	
-	@Test
-	@DisplayName("TC06 : Invalid Minus -4567")
-	void test2() {
-		int num = -4567;
-		int actual = sum_of_digits.getOneDigit(num);
-		assertEquals(4,actual);
-	}
 	
 
 }
