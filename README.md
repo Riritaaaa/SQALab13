@@ -1,7 +1,7 @@
 # SQALab13
-SQALab13 Sum og Digits
+SQALab13 Sum of Digits
 Members 
-- 643020488-2 นางสาวริตา ฉิมน้อย (Tester)
+- 643020488-2 นางสาวริตา ฉิมน้อย (Test)
 - 643020489-0 นางสาวรุ่งตะวัน สุทโธ (Refactor)
 - 643021230-6 นายทักษิณ แก้วกงพาน (Coding)
 
