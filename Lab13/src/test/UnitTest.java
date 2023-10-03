@@ -24,5 +24,13 @@ class UnitTest {
 		int actual = sum_of_digits.sumOfDigits(num);
 		assertEquals(1,actual);
 	}
+	
+	@Test
+	@DisplayName("TC02 : Valid Max 999999999")
+	void test() {
+		int num = 999999999; //9 digits
+		int actual = sum_of_digits.sumOfDigits(num);
+		assertEquals(9,actual);
+	}
 
 }
