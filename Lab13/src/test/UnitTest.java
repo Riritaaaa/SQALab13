@@ -18,11 +18,19 @@ class UnitTest {
 	}
 	
 	@Test
-	@DisplayName("TC01 : Valid Min 10")
-	void test() {
+	@DisplayName("TC01 : Valid Min Input = 10, Expected = 1")
+	void testValidMinInput() {
 		int num = 10;
-		int actual = sum_of_digits.SumOfDigits(num);
+		int actual = sum_of_digits.sumOfDigits(num);
 		assertEquals(1,actual);
+	}
+	
+	@Test
+	@DisplayName("TC02 : Valid Max 999999999")
+	void test() {
+		int num = 999999999; //9 digits
+		int actual = sum_of_digits.sumOfDigits(num);
+		assertEquals(9,actual);
 	}
 
 }
