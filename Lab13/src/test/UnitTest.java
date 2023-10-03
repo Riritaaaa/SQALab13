@@ -40,5 +40,23 @@ class UnitTest {
 		int actual = sum_of_digits.getOneDigit(num);
 		assertEquals(7,actual);
 	}
+	
+	@Test
+	@DisplayName("TC04 : Valid Min+ 11")
+	void test() {
+		int num = 11;
+		int actual = sum_of_digits.sumOfDigits(num);
+		assertEquals(2,actual);
+	}
+	
+	@Test
+	@DisplayName("TC05 : Valid Max- 999999998")
+	void test1() {
+		int num = 999999998;
+		int actual = sum_of_digits.sumOfDigits(num);
+		assertEquals(8,actual);
+	}
+	
+	
 
 }

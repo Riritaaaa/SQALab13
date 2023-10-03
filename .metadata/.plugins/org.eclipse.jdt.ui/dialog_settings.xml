@@ -13,4 +13,7 @@
 	</section>
 	<section name="JavaElementSearchActions">
 	</section>
+	<section name="OptionalMessageDialog.hide.">
+		<item key="EmptyDefaultAssistCategory" value="false"/>
+	</section>
 </section>
