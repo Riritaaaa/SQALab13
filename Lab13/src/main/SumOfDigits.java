@@ -1,7 +1,8 @@
 package main;
 
 public class SumOfDigits {
-	public int SumOfDigits(int number){
+	
+	public int sumOfDigits(int number){
 		int sum = 0;
 
         while (number != 0) {
@@ -11,4 +12,5 @@ public class SumOfDigits {
         }
 		return sum;
 	}
+	
 }
