@@ -34,7 +34,7 @@ class UnitTest {
 	}
 	
 	@Test
-	@DisplayName("TC03 : Valid Medium 55555")
+	@DisplayName("TC03 : Valid Medium Inpput = 55555, Expected = 7")
 	void testValidMedInput() {
 		int num = 55555; //5 digits
 		int actual = sum_of_digits.getOneDigit(num);

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="UnitTest" project="Lab13" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="test.UnitTest" time="0.002" displayname="UnitTest" uniqueid="[engine:junit-jupiter]/[class:test.UnitTest]">
+    <testcase name="testValidMinInput" classname="test.UnitTest" time="0.002" displayname="TC01 : Valid Min Input = 10, Expected = 1" uniqueid="[engine:junit-jupiter]/[class:test.UnitTest]/[method:testValidMinInput()]"/>
+    <testcase name="testValidMedInput" classname="test.UnitTest" time="0.0" displayname="TC03 : Valid Medium 55555" uniqueid="[engine:junit-jupiter]/[class:test.UnitTest]/[method:testValidMedInput()]"/>
+    <testcase name="testValidMaxInput" classname="test.UnitTest" time="0.0" displayname="TC02 : Valid Max Input = 999999999, Expected = 9" uniqueid="[engine:junit-jupiter]/[class:test.UnitTest]/[method:testValidMaxInput()]"/>
+  </testsuite>
+</testrun>
