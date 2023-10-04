@@ -13,15 +13,23 @@ public class SumOfDigits {
 		return sum;
 	}
 		
-	// check if number is positive value and make number to one-digit 
+	// make number to one-digit
 	public int getOneDigit(int number) {
-		if (number <= 0) {
-			number = 0;
+		if (number > 0) {
+			while (number >= 10) {
+				number = sumOfDigits(number);
+			}
+			return number;
+		}else{
+			return 0;
 		}
-		while (number >= 10) {
-			number = sumOfDigits(number);
-		}
-		return number;
 	}
+	
+	// return result
+//	public int getOneDigit(int number) {
+//		int result;
+//		result = oneDigit(number);
+//		return result;
+//	}
 
 }
