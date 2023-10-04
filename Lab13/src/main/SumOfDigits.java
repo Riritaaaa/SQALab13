@@ -15,7 +15,7 @@ public class SumOfDigits {
 		
 	// check if number is positive value and make number to one-digit 
 	public int getOneDigit(int number) {
-		if (number <= 0) {
+		if (number <= 9) {
 			number = 0;
 		}
 		while (number >= 10) {
@@ -23,5 +23,4 @@ public class SumOfDigits {
 		}
 		return number;
 	}
-
 }
