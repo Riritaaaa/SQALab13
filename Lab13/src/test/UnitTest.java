@@ -34,7 +34,7 @@ class UnitTest {
 	}
 	
 	@Test
-	@DisplayName("TC03 : Valid Medium Inpput = 55555, Expected = 7")
+	@DisplayName("TC03 : Valid Medium Input = 55555, Expected = 7")
 	void testValidMedInput() {
 		int num = 55555; //5 digits
 		int actual = sum_of_digits.getOneDigit(num);
@@ -42,27 +42,27 @@ class UnitTest {
 	}
 	
 	@Test
-	@DisplayName("TC04 : Valid Min+ 11")
-	void test() {
+	@DisplayName("TC04 : Valid Min+ Input = 11, Expected = 2")
+	void testValidMaxPositiveInput() {
 		int num = 11;
 		int actual = sum_of_digits.getOneDigit(num);
 		assertEquals(2,actual);
 	}
 	
 	@Test
-	@DisplayName("TC05 : Valid Max- 999999998")
-	void test1() {
+	@DisplayName("TC05 : Valid Max- Input = 999999998, Expected = 8")
+	void testValidMaxNegativeInput() {
 		int num = 999999998;
 		int actual = sum_of_digits.getOneDigit(num);
 		assertEquals(8,actual);
 	}
 	
 	@Test
-	@DisplayName("TC06 : Invalid Minus -4567")
-	void test2() {
+	@DisplayName("TC06 : Invalid Negative Input = -4567, Expected = 0")
+	void testInvalidNegativeInput() {
 		int num = -4567;
 		int actual = sum_of_digits.getOneDigit(num);
-		assertEquals(4,actual);
+		assertEquals(0,actual);
 	}
 	
 
