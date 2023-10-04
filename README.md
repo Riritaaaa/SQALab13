@@ -1,5 +1,5 @@
 # SQALab13
-SQALab13 Sum og Digits
+SQALab13 Sum of Digits
 Members 
 - 643020488-2 นางสาวริตา ฉิมน้อย (Tester)
 - 643020489-0 นางสาวรุ่งตะวัน สุทโธ (Refactor)
