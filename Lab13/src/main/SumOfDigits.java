@@ -13,7 +13,8 @@ public class SumOfDigits {
 		return sum;
 	}
 		
-	// check if number is positive value and make number to one-digit 
+	// check if number is positive value and more than one-digit
+	// return result one-digit
 	public int getOneDigit(int number) {
 		if (number <= 9) {
 			number = 0;
