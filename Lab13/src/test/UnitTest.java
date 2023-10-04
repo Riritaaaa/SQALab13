@@ -65,5 +65,13 @@ class UnitTest {
 		assertEquals(0,actual);
 	}
 	
+	@Test
+	@DisplayName("TC07 : Invalid Input = 5, Expected = 0")
+	void test() {
+		int num = 5;
+		int actual = sum_of_digits.getOneDigit(num);
+		assertEquals(0,actual);
+	}
+	
 
 }
